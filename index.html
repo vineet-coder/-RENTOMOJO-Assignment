@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Games Arena</title>
+    <link rel="shortcut icon" href="assets/favicon.ico">
+	<!-- Index CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Fredoka+One|Indie+Flower|Jua" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- jQuery UI -->
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+
+</head>
+<body>
+	<div class="topnav fixed-top" id="myTopnav">
+		<div class="wrapper">
+			<div class="autocomplete" style="width: 50%">
+			    <input id="myInput" type="text" name="myCountry" placeholder="Search...">
+			    <button type="submit"><i class="fas fa-search"></i></button>
+			</div>
+
+			<a id="filterToggle" href="#filterNavContain"><u>EXPLORE GAMES</u></a>
+		</div>
+	</div>
+	
+	<div id="navBelow">
+		<h1>GAMES ARENA</h1>
+		<h4 style="color: white">Only place to discover ultimate games</h3>
+	</div>
+
+	<div id="filterNavContain">
+		<div style="text-align: center;">
+			<button class="dropbtn" id="resetFilter" style="height: 32px">RESET FILTERS</button>
+		</div>
+
+		<div id="filterNav">
+			<div class="dropdown" id="drop1">
+				<h4 style="font-family: 'Baloo Bhai', cursive;">Filter By</h4>
+				<button class="dropbtn">Rating<i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<label><input id="sort1" type="radio" name="X">Low to High</label><br>
+					<label><input id="sort2" type="radio" name="X">High to Low</label><br>
+					<label><input type="radio" id="sort3" name="X">None</label>
+				</div>
+			</div>
+
+			<div id="drop2" class="dropdown">
+				<button class="dropbtn">Platform<i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+				    
+				</div>
+			</div>
+
+			<div class="dropdown" id="drop3">
+				<button class="dropbtn">Genre<i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					
+				</div>
+			</div>
+
+			<div class="dropdown" id="drop4">
+				<button class="dropbtn">Editor's Choice<i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<label><input id="ch1" type="radio" name="abc">Yes</label><br>
+				    <label><input id="ch2" type="radio" name="abc">No</label><br>
+				    <label><input type="radio" name="abc">Doesn't matter</label>
+				</div>
+			</div>
+
+			<button id="filterIcon"><i class="fas fa-filter"></i></button>
+			
+			<span><strong>( Select all that apply and click the icon )</strong></span>
+		</div>
+	</div>
+
+	<div id="paging" style="text-align: center">
+	
+	</div>
+
+	<div id="mainData" class="container">
+		<div class="row">
+			
+		</div>	
+    </div>
+    
+    <div class="container">Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
+
+	<!-- jQuery library -->
+	<script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="assets/js/lib/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="assets/js/lib/bootstrap.min.js"></script>
+
+	<!-- Pagination -->
+	<script type="text/javascript" src="assets/js/lib/jquery.bootpag.min.js"></script>
+
+	<!-- jQuery UI --> 
+	<script type="text/javascript" src="assets/js/lib/jquery-ui.min.js"></script>
+
+	<!-- Index Javascipt -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

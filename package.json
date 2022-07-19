@@ -1,0 +1,23 @@
+{
+  "name": "games-arena",
+  "version": "1.0.0",
+  "description": "Search Games by name, genre, rating, platform, editor's choice and review them. Used Games API provided by https://hackbenchers.hackerearth.com/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skbro/Games-Arena.git"
+  },
+  "author": "Sanskar Agarwal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/skbro/Games-Arena/issues"
+  },
+  "homepage": "https://github.com/skbro/Games-Arena#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
